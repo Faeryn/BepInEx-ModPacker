@@ -1,4 +1,4 @@
-#BepInEx ModPacker
+# BepInEx ModPacker
 
 This script manages a BepInEx mod project's artifacts.
 
