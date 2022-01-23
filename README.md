@@ -73,7 +73,9 @@ If it's ran without any command line arguments, then **all tasks are executed**.
 The `local` command line argument installs the project artifacts to r2modman/BepInEx folder.
 
 ### Thunderstore
-The `thunderstore` command line argument creates a Thunderstore package in the `release/Thunderstore` folder.
+The `thunderstore` command line argument creates a Thunderstore package in the `release/Thunderstore` folder.  
+The `manifest.json` in the package is **generated** from the project `manifest.json` 
+(therefore it will contain only the standard Thunderstore fields).
 
 ## Notes
 - Right now the mod only supports a `r2modmanPlus-local` installation for `Outward` with `Default` profile 
