@@ -18,18 +18,18 @@ Project
 │  │ README.md
 │
 └─plugin
-│  │   Plugin.csproj
+│  │ YourPluginProject.csproj
 │  │
 │  └─bin
-│     │   Plugin.dll
-│     │   OtherPluginArtifact.dll
+│     │ YourPluginProject.dll
+│     │ OtherPluginArtifact.dll
 │   
 └─patcher
-│  │   Patcher.csproj
+│  │ YourPatcherProject.csproj
 │  │
 │  └─bin
-│     │   Patcher.dll
-│     │   OtherPatcherArtifact.dll
+│     │ YourPatcherProject.dll
+│     │ OtherPatcherArtifact.dll
 │   
 ```
 The contents of the `meta` folder can be in the project root, but the `meta` folder takes priority 
